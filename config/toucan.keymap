@@ -55,7 +55,7 @@
             display-name = "BASE";
             bindings = <
                 &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp BSPC
-           &kp LCTRL &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp G   &kp M &hmr RSHFT N &hmr RCTRL E &hmr RALT I &kp RGUI O &kp SQT
+           &kp LCTRL &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp G   &kp M &hmr RSHFT N &hmr RCTRL E &hmr RALT I &hmr RGUI O &kp SQT
                 &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
                             &kp ESC &lt 1 SPACE &kp TAB   &kp RET &lt 2 BSPC &caps_word
             >;
