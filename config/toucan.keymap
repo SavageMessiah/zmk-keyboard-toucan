@@ -48,6 +48,18 @@
             hold-trigger-key-positions = < KEYS_L THUMBS >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
+        td_spc: tap_dance_mod_tap {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&lt 1 SPACE>, <&kp SPACE>;
+        };
+        td_bspc: tap_dance_mod_tap {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = <&lt 2 BSPC>, <&kp BSPC>;
+        };
     };
     keymap {
         compatible = "zmk,keymap";
@@ -58,7 +70,7 @@
                 &kp TAB   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SQT    &kp BSPC
            &kp LCTRL &hml LGUI A &hml LALT R &hml LCTRL S &hml LSHFT T &kp G   &kp M &hmr RSHFT N &hmr RCTRL E &hmr RALT I &hmr RGUI O &kp SQT
                 &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                            &kp ESC &lt 1 SPACE &kp TAB   &kp RET &lt 2 BSPC &caps_word
+                            &kp ESC &td_spc &kp TAB   &kp RET &td_bspc &caps_word
             >;
         };
 
