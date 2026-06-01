@@ -109,7 +109,6 @@
                                   (conj combo (str "combo_" idx)))
                                 combos)]
     (-> []
-        (conj "/ {")
         (conj "    combos {")
         (conj "       compatibles = \"zmk,combos\";")
         (into (for [[keys binding name] with-names
@@ -118,8 +117,7 @@
                                       (str/join " "))
                           bindingstr (kw->binding binding)]]
                 (format combo-format name keystr bindingstr)))
-        (conj "    };")
-        (conj "};"))))
+        (conj "    };"))))
 
 (->> combos
      combos->header-lines

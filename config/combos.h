@@ -1,4 +1,3 @@
-/ {
     combos {
        compatibles = "zmk,combos";
 combo_0 { timeout-ms = <50>; key-positions = <LT3 LM3>; bindings = <&kp LEFT_BRACKET>; };
@@ -40,4 +39,3 @@ combo_35 { timeout-ms = <50>; key-positions = <RM2 RB1>; bindings = <&kp GRAVE>;
 combo_36 { timeout-ms = <50>; key-positions = <RM0 RB0>; bindings = <&kp N6>; };
 combo_37 { timeout-ms = <50>; key-positions = <LB3 LB2>; bindings = <&kp PLUS>; };
     };
-};

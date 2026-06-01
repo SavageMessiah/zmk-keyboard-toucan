@@ -13,7 +13,6 @@
     continue-list = <UNDERSCORE MINUS>;
 };
 
-#include "combos.h"
 
 / {
     /* conditional_layers { */
@@ -23,6 +22,8 @@
     /*         then-layer = <3>; */
     /*     }; */
     /* }; */
+
+    #include "combos.h"
 
     behaviors {
         hml: home_row_mod_left {
