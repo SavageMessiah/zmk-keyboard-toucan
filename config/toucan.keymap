@@ -48,13 +48,13 @@
             hold-trigger-key-positions = < KEYS_L THUMBS >; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
-        td_spc: tap_dance_mod_tap {
+        td_spc: tap_dance_mod_tap_space {
           compatible = "zmk,behavior-tap-dance";
           #binding-cells = <0>;
           tapping-term-ms = <200>;
           bindings = <&lt 1 SPACE>, <&kp SPACE>;
         };
-        td_bspc: tap_dance_mod_tap {
+        td_bspc: tap_dance_mod_tap_backspace {
           compatible = "zmk,behavior-tap-dance";
           #binding-cells = <0>;
           tapping-term-ms = <200>;
