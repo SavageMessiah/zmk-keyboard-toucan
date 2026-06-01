@@ -62,7 +62,7 @@
    [:x :d] :asterisk
    [:s :d] :equal
 
-   [:t :f] :bsls
+   [:t :f] :backslash
 
    [:w :r] :left_bracket
    [:f :s] :left_brace
@@ -70,7 +70,7 @@
    [:b :g] :less_than
 
    [:l :y] :hash
-   [:l :u] :coln
+   [:l :u] :colon
    [:u :y] :dollar
    [:e :l] :percent
 

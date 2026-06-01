@@ -12,7 +12,7 @@ combo_7 { timeout-ms = <50>; key-positions = <RM4 RB4>; bindings = <&kp N0>; };
 combo_8 { timeout-ms = <50>; key-positions = <LT1 LM1>; bindings = <&kp LEFT_PARENTHESIS>; };
 combo_9 { timeout-ms = <50>; key-positions = <LB3 LB1>; bindings = <&kp ASTERISK>; };
 combo_10 { timeout-ms = <50>; key-positions = <LM0 LB0>; bindings = <&kp N5>; };
-combo_11 { timeout-ms = <50>; key-positions = <LM1 LT2>; bindings = <&kp BSLS>; };
+combo_11 { timeout-ms = <50>; key-positions = <LM1 LT2>; bindings = <&kp BACKSLASH>; };
 combo_12 { timeout-ms = <50>; key-positions = <LM4 LB4>; bindings = <&kp N1>; };
 combo_13 { timeout-ms = <50>; key-positions = <RM2 RT1>; bindings = <&kp PERCENT>; };
 combo_14 { timeout-ms = <50>; key-positions = <LM2 LB2>; bindings = <&kp N3>; };
@@ -27,7 +27,7 @@ combo_22 { timeout-ms = <50>; key-positions = <RT2 RM2>; bindings = <&kp RIGHT_B
 combo_23 { timeout-ms = <50>; key-positions = <RM1 RM2 RM3>; bindings = <&sk RIGHT_SHIFT>; };
 combo_24 { timeout-ms = <50>; key-positions = <RM3 RB3>; bindings = <&kp N9>; };
 combo_25 { timeout-ms = <50>; key-positions = <LM1 LB1>; bindings = <&kp N4>; };
-combo_26 { timeout-ms = <50>; key-positions = <RT1 RT2>; bindings = <&kp COLN>; };
+combo_26 { timeout-ms = <50>; key-positions = <RT1 RT2>; bindings = <&kp COLON>; };
 combo_27 { timeout-ms = <50>; key-positions = <LM3 LM2 LM1>; bindings = <&sk LEFT_SHIFT>; };
 combo_28 { timeout-ms = <50>; key-positions = <LT3 LT2>; bindings = <&kp EXCLAMATION>; };
 combo_29 { timeout-ms = <50>; key-positions = <RB2 RB3>; bindings = <&kp CARET>; };
