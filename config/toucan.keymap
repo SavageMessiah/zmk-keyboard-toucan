@@ -27,9 +27,9 @@
 
     combos {
        compatibles = "zmk,combos";
-       combo_0 { timeout-ms = <50>;
-                 key-positions = <LT3 LM3>;
-                 bindings = <&kp LEFT_BRACKET>;
+       combo_0 { timeout-ms = <100>;
+                 key-positions = <0 1>;
+                 bindings = <&kp ESC>;
        };
     };
     behaviors {
