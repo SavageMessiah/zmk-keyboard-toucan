@@ -1,5 +1,5 @@
     combos {
-       compatibles = "zmk,combos";
+       compatible = "zmk,combos";
 combo_0 { timeout-ms = <50>; key-positions = <LT3 LM3>; bindings = <&kp LEFT_BRACKET>; };
 combo_1 { timeout-ms = <50>; key-positions = <RM1 RB1>; bindings = <&kp N7>; };
 combo_2 { timeout-ms = <50>; key-positions = <RM1 RB2>; bindings = <&kp UNDERSCORE>; };

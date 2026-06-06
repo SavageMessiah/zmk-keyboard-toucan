@@ -110,7 +110,7 @@
                                 combos)]
     (-> []
         (conj "    combos {")
-        (conj "       compatibles = \"zmk,combos\";")
+        (conj "       compatible = \"zmk,combos\";")
         (into (for [[keys binding name] with-names
                     :let [keystr (->> keys
                                       (map kw->key)
