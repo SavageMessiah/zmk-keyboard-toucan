@@ -10,7 +10,7 @@
 #define ADJ  3
 
 &caps_word {
-    continue-list = <UNDERSCORE MINUS>;
+    continue-list = <UNDERSCORE MINUS BACKSPACE>;
 };
 
 
@@ -74,7 +74,7 @@
             display-name = "NAV";
             bindings = <
                 &kp CAPS    &trans &kp KP_N7  &kp KP_N8  &kp KP_N9 &trans     &kp DEL   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3
-                &kp PSCRN   &trans &kp KP_N4  &kp KP_N5  &kp KP_N6 &trans     &trans    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT &trans
+      &kp PSCRN   &hml LGUI KP_N3 &hml LALT KP_N4  &hml LCTRL KP_N5  &hml LSHFT KP_N6 &trans     &trans    &hmr RSHFT LEFT &hmr RCTRL DOWN &hmr RALT UP &hmr RGUI RIGHT &trans
                 &trans &studio_unlock &kp KP_N1  &kp KP_N2  &kp KP_N3 &kp KP_N0  &kp INS   &kp HOME   &kp PG_DN &kp PG_UP &kp END   &trans
                                           &trans &trans &trans      &trans &trans &trans
             >;
@@ -84,7 +84,7 @@
             display-name = "NUM";
             bindings = <
                 &kp TAB   &kp F1 &kp F2 &kp F3 &kp F4 &kp F5         &kp F6 &kp F7  &kp F8 &kp F9 &kp F10 &kp BSPC
-                &kp LCTRL &kp N1 &kp N2 &kp N3 &kp N4 &kp N5         &kp N6 &kp N7  &kp N8 &kp N9 &kp N0  &kp GRAVE
+      &kp LCTRL &hml LGUI N1 &hml LALT N2 &hml LCTRL N3 &hml LSHFT N4 &kp N5         &kp N6 &hmr RSHFT N7 &hmr RCTRL N8 &hmr RALT N9 &hmr RGUI N0  &kp GRAVE
                 &kp LSHFT &kp F11 &kp F12 &trans   &trans   &trans   &trans &trans &trans &trans &trans &trans
                                           &kp LGUI &trans   &trans   &trans &trans &trans
             >;
