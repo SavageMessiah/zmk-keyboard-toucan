@@ -26,7 +26,7 @@ combo_22 { timeout-ms = <50>; key-positions = <RT2 RM2>; bindings = <&kp RIGHT_B
 combo_23 { timeout-ms = <50>; key-positions = <RM1 RM2 RM3>; bindings = <&sk RIGHT_SHIFT>; };
 combo_24 { timeout-ms = <50>; key-positions = <RM3 RB3>; bindings = <&kp N9>; };
 combo_25 { timeout-ms = <50>; key-positions = <LM1 LB1>; bindings = <&kp N4>; };
-combo_26 { timeout-ms = <50>; key-positions = <RT1 RT2>; bindings = <&kp COLON>; };
+combo_26 { timeout-ms = <20>; key-positions = <RT1 RT2>; bindings = <&kp COLON>; };
 combo_27 { timeout-ms = <50>; key-positions = <LM3 LM2 LM1>; bindings = <&sk LEFT_SHIFT>; };
 combo_28 { timeout-ms = <50>; key-positions = <LT3 LT2>; bindings = <&kp EXCLAMATION>; };
 combo_29 { timeout-ms = <50>; key-positions = <RB2 RB3>; bindings = <&kp CARET>; };

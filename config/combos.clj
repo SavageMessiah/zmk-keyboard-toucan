@@ -102,7 +102,9 @@
    [:o :slash] :N0})
 
 (def combo-format
-  "%s { timeout-ms = <50>; key-positions = <%s>; bindings = <%s>; };")
+  "%s { timeout-ms = <%d>; key-positions = <%s>; bindings = <%s>; };")
+
+(def combo->timeout {[:l :u] 20})
 
 (defn combos->header-lines [combos]
   (let [with-names (map-indexed (fn [idx combo]
@@ -115,8 +117,9 @@
                     :let [keystr (->> keys
                                       (map kw->key)
                                       (str/join " "))
-                          bindingstr (kw->binding binding)]]
-                (format combo-format name keystr bindingstr)))
+                          bindingstr (kw->binding binding)
+                          timeout (get combo->timeout keys 50)]]
+                (format combo-format name timeout keystr bindingstr)))
         (conj "    };"))))
 
 (->> combos
